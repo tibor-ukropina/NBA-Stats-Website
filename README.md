@@ -7,4 +7,4 @@ come from https://www.balldontlie.io/.
 
 Tools Used: Python, Javascript, HTML, CSS, Flask, Ajax, Bootstrap, Jinja
 
-![](images/Image1.png)
+![](images/ImageFullscreen.png)
