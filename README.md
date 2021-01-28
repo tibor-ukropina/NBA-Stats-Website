@@ -5,4 +5,8 @@ Project Summary: This is a website I made to display player and team stats from 
 and results from NBA games. I made this website to learn how to use RESTful requests with Flask to transfer API data from Python to Javascript. All stats and data
 come from https://www.balldontlie.io/.
 
-Tools Used: Python, Javascript, HTML, CSS, Flask, Ajax, Bootstrap
+Tools Used: Python, Javascript, HTML, CSS, Flask, Ajax, Bootstrap, Jinja
+
+![](images/image1.png)
+
+![](images/image2.png)
