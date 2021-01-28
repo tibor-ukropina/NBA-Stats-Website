@@ -1,0 +1,92 @@
+{% extends "public/templates/base.html" %}
+
+{% block title %}NBA Reference{% endblock %}
+
+{% block main %}
+
+<br>
+<h1>Welcome to NBA Reference</h1>
+<br>
+<br>
+<input type="number" name="" id="gameID" placeholder="Enter Game ID">
+<br>
+<br>
+<button id="findGame" class="btn btn-primary">Search</button>
+<br>
+<br>
+<div class="table-responsive">
+  <table class="table">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Home</th>
+        <th scope="col">Away</th>
+        <th scope="col">Score</th>
+      </tr>
+    </thead>
+    <tbody id="recentGames">
+      
+    </tbody>
+  </table>
+</div>
+
+
+<br>
+<h2>Find NBA Player by ID</h2>
+<br>
+<input type="number" name="" id="playerID" placeholder="Enter Player ID">
+<br>
+<br>
+<button class="btn btn-primary" id="submitID"> Get Player Data </button>
+<button class="btn btn-primary" id="getStats"> Add to Table </button>
+<button class="btn btn-danger" id="erase"> Erase Table </button>
+<br>
+<br>
+<ul id="data"></ul>
+
+<div class="table-responsive">
+  <table class="table">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Games</th>
+          <th scope="col">Points</th>
+          <th scope="col">Rebounds</th>
+          <th scope="col">Assists</th>
+          <th scope="col">Steals</th>
+          <th scope="col">Blocks</th>
+        </tr>
+      </thead>
+      <tbody id="statsBox">
+
+      </tbody>
+    </table>
+  </div>
+
+  <br>
+
+  <h2>View Teams</h2>
+  <br>
+  <input type="number" name="" id="numTeams" placeholder="Enter # of Teams">
+  <br>
+  <br>
+  <button class="btn btn-primary" id="showTeams"> Show Teams </button>
+  <br>
+  <br>
+
+  <div class="table-responsive">
+  <table class="table">
+    <thead class="thead-light">
+      <tr>
+        <th scope="col">Team</th>
+        <th scope="col">City</th>
+        <th scope="col">Name</th>
+        <th scope="col">Conference</th>
+        <th scope="col">Division</th>
+      </tr>
+    </thead>
+    <tbody id="teamsBox">
+      
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}
